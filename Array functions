@@ -1,0 +1,168 @@
+package com.company;
+
+
+public class Array {
+    public static void main(String[] args) {
+//        int [] marks = new int [5];
+//        marks[0]=100;
+//        marks[1]=99;
+//        marks[2]=56;
+//        marks[3]=10;
+//        marks[4]=98;
+//        System.out.println(marks[3]);
+//        marks[3]=67;
+//        System.out.println(marks[3]);
+//          int [] marks={100,14,56,89,94};
+//          System.out.println(marks[4]);
+//          System.out.println(marks.length);
+//          String []names={"Rohit","Rohan","Ritesh"};
+//          System.out.println(names.length);
+       // int [] marks={100,14,56,89,94};
+        /*for(int i =0;i<marks.length;i++){
+            System.out.println(marks[i]);
+        }
+        System.out.println("Reverse method: ");
+        for(int i =marks.length-1;i>=0;i--){
+            System.out.println(marks[i]);
+        }*/
+
+        //Quick method using for each method
+//        for (int element: marks){
+//            System.out.println(element);
+//        }
+/*
+        //Multidimensional array
+        int [][] flats = new int [2][3];
+        flats [0][0]=101;
+        flats [0][1]=102;
+        flats [0][2]=103;
+        flats [1][0]=104;
+        flats [1][1]=105;
+        flats [1][2]=106;
+//        System.out.println(flats[1][2]);
+
+        for(int i=0;i<flats.length;i++){
+            for(int j =0;j< flats[i].length;j++){
+                System.out.print(flats[i][j]);
+                System.out.print("  ");
+            }
+            System.out.println("\n");
+
+        }
+*/
+        //Problem `1
+//        float [] marks={25.0f,55.4f,99.05f,44.02f,55.08f};
+//        float sum =0;
+//        for (float element:marks){
+//            sum = sum = element;
+//        }
+//        System.out.println(sum);
+
+        /*//Problem 2
+        float [] marks={25.0f,55.4f,99.05f,44.02f,55.08f};
+        float num = 55.78f;
+        boolean isInArray=false;
+        for (float element:marks){
+            if(num == element){
+                isInArray=true;
+                break;
+            }
+        }
+        if(isInArray){
+            System.out.println("the value is present in array");
+        }
+        else{
+            System.out.println("the value is not present in array");
+        }
+
+
+        //problem 3
+        float [] marks={25.0f,55.4f,99.05f,44.02f,55.08f};
+        float sum =0;
+        for (float element:marks){
+            sum = sum = element;
+        }
+        System.out.println(sum/marks.length);
+
+
+        //Problem 4
+        int [][] mat1 = { {1,2,3},
+                          {4,5,6}};
+        int [][] mat2 = { {7,8,9},
+                          {10,11,12}};
+        int [][] result = { {0,0,0},
+                            {0,0,0}};
+
+        for (int i=0;i<mat1.length;i++){
+            for (int j=0;j<mat1[i].length;j++){
+
+                result[i][j]=mat1[i][j] + mat2[i][j];
+                System.out.print(result[i][j]+ " ");
+
+            }
+            System.out.println("");
+
+        }
+
+
+        // Problem 5
+        int[] arr ={1,2,3,4,5,6};
+        int l = arr.length;
+        int n = Math.floorDiv(l, 2);
+        int temp;
+
+        for(int i =0;i<n;i++){
+            //swap a[i] and a[l-1-i]
+            temp = arr[i];
+            arr[i]=arr[l-1-i];
+            arr[l-1-i]=temp;
+        }
+        for(int element:arr){
+            System.out.println(element);
+        }
+
+
+        //Problem 6
+        int[] arr ={1,2,3,4,5,455,6};
+        int max =0;
+        for (int element:arr){
+            if(element>max){
+                max=element;
+
+            }
+        }
+        System.out.println("The maximum element is:  " + max);
+
+
+
+        //problem 7
+        int[] arr ={1,2,3,4,5,455,6};
+        int min =2147483647; //maximum value java can store
+        for(int element: arr){
+            if(element< min){
+                min=element;
+            }
+        }
+        System.out.println("the minimum value is "+ min);
+
+
+
+        //problem 8
+        boolean isSorted = true;
+        int[] arr ={1,2,3,4,5,54,6};
+        for(int i =0;i< arr.length-1;i++){
+            if(arr[i]> arr[i+1]){
+                isSorted=false;
+                break;
+            }
+        }
+        if(isSorted){
+            System.out.println("the array is sorted");
+        }
+        else{
+            System.out.println("the array is not sorted");
+        }
+
+         */
+
+
